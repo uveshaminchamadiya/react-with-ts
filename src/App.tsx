@@ -1,8 +1,11 @@
-import { Products } from "./components/Products"
+import { GroupedProducts } from "./components/groupedProducts"
+
+// import { Products } from "./components/Products"
 function App() {
   return (
     <>
-      <Products />
+      {/* <Products /> */}
+      <GroupedProducts />
     </>
   )
 }
